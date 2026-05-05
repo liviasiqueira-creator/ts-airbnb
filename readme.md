@@ -1,3 +1,9 @@
+Para rodar:
+
+- Baixar o projeto
+- Rodar "npm i ou npm install"
+- Rodar "npm start"
+
 Utilizamos a classe abstrata Accommodation que serve como base para todos os tipos de acomodação,
 e garantimos que todas acomodações terão nome, id, endereço, preço por noite e sua própria forma 
 de calcular o preço, que é o calculatePrice, que recebe a quantidade de dias da reserva.
