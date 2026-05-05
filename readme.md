@@ -22,8 +22,10 @@ acomodação.
 No nosso service, fazemos a soma de todas as taxas aplicadas e adicionamos no valor base.
 O usecase pega os dados do repositório, pede pro service executar a logica e nos devolve.
 
-Sobre a execução:
-- iniciamos o repositório com uma casa, com id = 0
+Fizemos a execução com uma casa, apartamento e quarto compartilhado.
+
+Sobre a execução com reserva de uma casa:
+- iniciamos o repositorio
 - vou criar uma reserva, passando o repo e também as taxas gerais a serem adicionadas ( de plataforma )
 - chamo o meu caso de uso, busco a acomodação, calculo o preço total, a partir da quantidade de dias e somo com todas as taxas
 
